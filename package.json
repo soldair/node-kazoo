@@ -1,0 +1,22 @@
+{
+  "author": "Ryan Day <soldair@gmail.com>",
+  "name": "kazoo",
+  "description": "streaming json parser with streaming value support",
+  "version": "0.0.0",
+  "repository": {
+    "url": "http://github.com/soldair/node-kazoo"
+  },
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "microtime":"*",
+    "request":"*",
+    "tap":"*",
+    "clarinet":"*",
+    "microtime":"*"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
