@@ -1,7 +1,7 @@
 {
   "author": "Ryan Day <soldair@gmail.com>",
   "name": "kazoo",
-  "description": "streaming json parser with streaming value support",
+  "description": "streaming json parser with the interface of clarinet but streaming chunked value support. (the interface is extremely unstable right now)",
   "version": "0.0.0",
   "repository": {
     "url": "http://github.com/soldair/node-kazoo"
@@ -9,7 +9,6 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
-    "microtime":"*",
     "request":"*",
     "tap":"*",
     "clarinet":"*",

@@ -16,7 +16,7 @@ module.exports = function(stream,options){
   var parser = {
     options:{},
     states:{value:'value',string:'string',number:'number',literal:'literal',key:'key',delim:'delim',separator:'separator'},
-    setState(v){
+    setState:function(v){
       this.sbuf = '';
       this.sdata = {}; 
       this.state = v;
@@ -57,9 +57,9 @@ module.exports = function(stream,options){
   });
 
   stream.on('end',function(){
-      process.nextTick(function(){
+      //process.nextTick(function(){
         outstream.emit('end');
-      });
+      //});
   });
 
   outstream.timer = timer;
